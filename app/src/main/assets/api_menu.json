@@ -1,0 +1,57 @@
+{
+  "status": "SUCCESS",
+  "message": "Getting menu Success",
+  "dashboard_menus": [
+    {
+      "id": "1",
+      "name": "SuperCoin",
+      "url": "https://cdn-icons-png.flaticon.com/512/1170/1170577.png"
+    },
+    {
+      "id": "2",
+      "name": "Coupons",
+      "url": "https://cdn-icons-png.flaticon.com/512/1170/1170577.png"
+    },
+    {
+      "id": "3",
+      "name": "What's New?",
+      "url": "https://cdn-icons-png.flaticon.com/512/1170/1170577.png"
+    },
+    {
+      "id": "4",
+      "name": "Plus",
+      "url": "https://cdn-icons-png.flaticon.com/512/1170/1170577.png"
+    },
+    {
+      "id": "5",
+      "name": "Feeds",
+      "url": "https://cdn-icons-png.flaticon.com/512/1170/1170577.png"
+    }
+  ],
+  "dashboard_menu_priority1": [
+    {
+      "id": "1",
+      "name": "Sports and Fitness",
+      "desc": "Upto 80% Off",
+      "url": "https://img.freepik.com/premium-psd/exclusive-sports-shoes-collection-social-media-banner-design-square-flyer_551826-172.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Festive styles",
+      "desc": "40-80% Off",
+      "url": "https://img.freepik.com/premium-psd/fashion-sale-banner-square-flyer-social-media-post-template_169869-217.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Furnitures",
+      "desc": "50% Off",
+      "url": "https://img.freepik.com/premium-psd/furniture-related-social-media-post-banner-square-flyer-template-facebook-cover-template_550280-738.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Laptops",
+      "desc": "50% Off",
+      "url": "https://i.pinimg.com/736x/47/40/8d/47408d5a4d3a68bc712cf14453bf9d5d.jpg"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "981670583835",
+    "project_id": "fcart-1673585219090",
+    "storage_bucket": "fcart-1673585219090.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981670583835:android:0967bc435ace83bf24e2be",
+        "android_client_info": {
+          "package_name": "com.marwaeltayeb.souq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981670583835-ebbo5c89sallft33qrcb4040uqgmcqbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marwaeltayeb.souq",
+            "certificate_hash": "f1be047af21a36c340bd9064190799cefbc31dee"
+          }
+        },
+        {
+          "client_id": "981670583835-7bujg56bi0knpodiifogdc92ur5vgpe8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgfyCMDqo3_ePrUk2PizkovXxcgVqbt_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981670583835-7bujg56bi0knpodiifogdc92ur5vgpe8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

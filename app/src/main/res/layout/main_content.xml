@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="60dp"    >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".view.ProductActivity">
+
+            <AdapterViewFlipper
+
+                android:id="@+id/imageSlider"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="110dp"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/slide1"
+                android:textSize="@dimen/dimen16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:background="@drawable/slide1"
+                />
+
+            <com.synnapps.carouselview.CarouselView
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="110dp"
+                android:id="@+id/imageSlider4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"
+                tools:ignore="MissingConstraints" />
+
+            <AdapterViewFlipper
+                android:visibility="gone"
+                android:id="@+id/imageSlider2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="110dp"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/slide1"
+                android:textSize="@dimen/dimen16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:background="@drawable/slide1"
+                />
+
+            <com.smarteist.autoimageslider.SliderView
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="110dp"
+                android:id="@+id/imageSlider3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1"
+                app:sliderStartAutoCycle="true"
+                tools:ignore="MissingConstraints" />
+
+
+<!--            android:background="@drawable/slide1"     -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:orientation="horizontal"
+                android:id="@+id/reimgvi"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/recycledash"
+                android:layout_marginBottom="25dp"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/reimgvi1"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="SuperCoin"
+                    android:textColor="#000"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/reimgvi2"
+                    android:padding="10dp"
+                    android:text="Coupons"
+                    android:textColor="#000"
+                    tools:ignore="MissingConstraints"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/reimgvi3"
+                    android:padding="10dp"
+                    android:text="What's New?"
+                    android:textColor="#000"
+                    tools:ignore="MissingConstraints"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/reimgvi4"
+                    android:padding="10dp"
+                    android:text="Plus"
+                    android:textColor="#000"
+                    tools:ignore="MissingConstraints"
+                    />
+
+                <TextView
+                    android:id="@+id/reimgvi5"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Feeds"
+                    android:textColor="#000"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/recycledash"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recycler_dash_items"
+                    android:background="#FFFFFF" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycleproduct"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/recycledash"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recycle_products"
+                    android:layout_gravity="left"
+                />
+
+<!--                    <LinearLayout-->
+
+<!--                        android:background="#FFFFFF"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_vertical"-->
+
+<!--                        >-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                   >-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@drawable/ic_arrow_forward_24"-->
+<!--                        android:layout_marginRight="8dp"-->
+<!--                        tools:ignore="RtlHardcoded" />-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+<!--                 </LinearLayout>-->
+
+
+                </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycledashmenu"
+                app:layout_constraintTop_toBottomOf="@+id/recycleproduct"
+                tools:ignore="MissingConstraints"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_dash_menuitems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycledynamiclayout"
+                app:layout_constraintTop_toBottomOf="@+id/recycledashmenu"
+                tools:ignore="MissingConstraints"
+                android:orientation="horizontal">
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginTop="3dp"-->
+<!--                    android:layout_gravity="center_horizontal">-->
+
+                <androidx.recyclerview.widget.RecyclerView
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recycle_dynamic_items"
+               />
+<!--                </androidx.cardview.widget.CardView>-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:visibility="gone"
+                android:background="#FFFFFF"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycledynamiclayout2"
+                app:layout_constraintTop_toBottomOf="@+id/recycledynamiclayout"
+                tools:ignore="MissingConstraints"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/recycle_dynamic_items2"
+                    />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+
+                android:background="#FFFFFF"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycledynamiclayout3"
+                app:layout_constraintTop_toBottomOf="@+id/recycledynamiclayout2"
+                tools:ignore="MissingConstraints"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/recycle_dynamic_items3"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+
+                android:layout_marginBottom="30dp"
+
+                android:background="#FFFFFF"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recycledynamiclayout4"
+                app:layout_constraintTop_toBottomOf="@+id/recycledynamiclayout3"
+                tools:ignore="MissingConstraints"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/recycle_dynamic_items4"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                app:layout_constraintTop_toBottomOf="@+id/recycledashmenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:id="@+id/textViewEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            </LinearLayout>
+
+
+<!--            <LinearLayout-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:id="@+id/recycledashmenu1"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/recycledashmenu"-->
+<!--                tools:ignore="MissingConstraints">-->
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/recycler_dash_menuitems1"-->
+<!--                    android:background="#E6E5E5" />-->
+<!--            </LinearLayout>-->
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/imageSlider">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintTop_toBottomOf="@+id/imageSlider"
+                >
+           <LinearLayout
+               android:visibility="gone"
+               android:background="#1D000000"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                tools:ignore="MissingConstraints"
+                android:orientation="horizontal"
+                android:id="@+id/reimgview"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+               android:gravity="center">
+<!--               android:visibility="gone" -->
+
+               <androidx.cardview.widget.CardView
+                   android:layout_margin="10dp"
+                   android:layout_width="46dp"
+                   android:layout_height="55dp"
+                   android:layout_gravity="center"
+                   app:cardCornerRadius="35dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/reimgview2"
+                    android:background="@drawable/supcn"
+                    tools:ignore="MissingConstraints"
+                    />
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_margin="10dp"
+                   android:layout_width="46dp"
+                   android:layout_height="55dp"
+                   android:layout_gravity="center"
+                   app:cardCornerRadius="35dp">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:id="@+id/reimgview3"
+                       android:background="@drawable/supcn"
+                       tools:ignore="MissingConstraints"
+                       />
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:layout_margin="10dp"
+                   android:layout_width="46dp"
+                   android:layout_height="55dp"
+                   android:layout_gravity="center"
+                   app:cardCornerRadius="35dp">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:id="@+id/reimgview4"
+                       android:background="@drawable/supcn"
+                       tools:ignore="MissingConstraints"
+                       />
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_margin="10dp"
+                   android:layout_width="46dp"
+                   android:layout_height="55dp"
+                   android:layout_gravity="center"
+                   app:cardCornerRadius="35dp">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:id="@+id/reimgview5"
+                       android:background="@drawable/supcn"
+                       tools:ignore="MissingConstraints"
+                       />
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_margin="10dp"
+                   android:layout_width="46dp"
+                   android:layout_height="55dp"
+                   android:layout_gravity="center"
+                   app:cardCornerRadius="35dp">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:id="@+id/reimgview6"
+                       android:background="@drawable/supcn"
+                       tools:ignore="MissingConstraints"
+                       />
+               </androidx.cardview.widget.CardView>
+
+               <androidx.cardview.widget.CardView
+                   android:layout_margin="10dp"
+                   android:layout_width="46dp"
+                   android:layout_height="55dp"
+                   android:layout_gravity="center"
+                   app:cardCornerRadius="35dp">
+
+                   <ImageView
+                       android:id="@+id/reimgview7"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/supcn"
+                       tools:ignore="MissingConstraints" />
+               </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            </ScrollView>
+
+</LinearLayout>
+
+
+
+
+ <LinearLayout
+     android:visibility="gone"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     tools:ignore="MissingConstraints"
+     android:orientation="horizontal"
+     android:id="@+id/reimgvie"
+     android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+     app:layout_constraintTop_toBottomOf="@+id/reimgvi"
+     android:background="@color/red">
+<!--       android:visibility="gone"-->
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="wrap_content"
+         android:layout_height="90dp"
+         android:layout_gravity="center"
+         app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/reimgvie1"
+                    android:background="@drawable/cart1"
+                    tools:ignore="MissingConstraints"
+                    />
+     </androidx.cardview.widget.CardView>
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="wrap_content"
+         android:layout_height="90dp"
+         android:layout_gravity="center"
+         app:cardCornerRadius="15dp">
+                <ImageView
+                    android:background="@drawable/cart2"
+                    android:padding="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/reimgvie2"
+                    tools:ignore="MissingConstraints"
+                    /></androidx.cardview.widget.CardView>
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="wrap_content"
+         android:layout_height="90dp"
+         android:layout_gravity="center"
+         app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:background="@drawable/cart33"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/reimgvie3"
+                    tools:ignore="MissingConstraints"
+                    /></androidx.cardview.widget.CardView>
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="wrap_content"
+         android:layout_height="90dp"
+         android:layout_gravity="center"
+         app:cardCornerRadius="15dp">
+                <ImageView
+                    android:background="@drawable/cart4"
+                    android:padding="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/reimgvie4"
+                    tools:ignore="MissingConstraints"
+
+                    /></androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:layout_constraintTop_toBottomOf="@+id/reimgvie"
+                tools:ignore="MissingConstraints"
+                android:id="@+id/griddemo"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rowCount="2"
+                    android:columnCount="2"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:layout_margin="15dp"
+
+                        android:background="@drawable/cart4"
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:gravity="center_horizontal"
+                        tools:ignore="MissingConstraints"/>
+
+                    <ImageView
+                        android:layout_margin="15dp"
+
+                        android:background="@drawable/cart4"
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:gravity="center_horizontal"
+                        tools:ignore="MissingConstraints"/>
+
+                    <ImageView
+                        android:layout_margin="15dp"
+
+                        android:background="@drawable/cart4"
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:gravity="center_horizontal"
+                        tools:ignore="MissingConstraints"/>
+
+                    <ImageView
+                        android:layout_margin="15dp"
+
+                        android:background="@drawable/cart4"
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:gravity="center_horizontal"
+                        tools:ignore="MissingConstraints"/>
+
+                </GridLayout>
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textViewMobiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/mobile"
+                android:textSize="@dimen/dimen20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/reimgview"
+                android:visibility="gone"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/txtSeeAllMobiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/see_all"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/dimen20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/reimgview"
+                android:visibility="gone"
+                tools:ignore="NotSibling" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listOfMobiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="370dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewMobiles"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textViewLaptops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/laptop"
+                android:textSize="@dimen/dimen20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/listOfMobiles"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txtSeeAllLaptops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/see_all"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/dimen20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/listOfMobiles"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listOfLaptops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="370dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtSeeAllLaptops"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textViewHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/recently_viewed_items"
+                android:textSize="@dimen/dimen20sp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/listOfLaptops" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/historyList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHistory"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txtReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_return"
+                android:drawablePadding="@dimen/dimen5dp"
+                android:text="@string/free_returns"
+                android:textColor="@color/vDarkGray"
+                android:textSize="@dimen/dimen14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/historyList"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txtCash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_cash"
+                android:drawablePadding="@dimen/dimen5dp"
+                android:text="@string/cash_on_delivery"
+                android:textColor="@color/vDarkGray"
+                android:textSize="@dimen/dimen14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/historyList" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+</layout>
+

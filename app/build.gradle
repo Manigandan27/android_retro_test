@@ -1,0 +1,148 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "com.marwaeltayeb.souq"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    packagingOptions {
+        exclude '**/libtranslate_jni.so'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    def support_version = "1.3.1"
+    def materialVersion = '1.4.0'
+    def recyclerview_version= "1.2.1"
+    def cardviewVersion = '1.0.0'
+    def vectordrawableVersion = "1.0.0"
+    def retrofit_version = "2.4.0"
+    def paging_version = "2.0.0"
+    def glide_version = "4.12.0"
+    def view_model_version = "2.0.0"
+    def CircleImgVersion = "3.1.0"
+    def preferenceVersion = "1.1.1"
+
+    def lottieVersion = "3.4.0"//for animation
+
+    implementation 'androidx.annotation:annotation:1.4.0'
+
+
+    implementation "androidx.appcompat:appcompat:$support_version"
+    // Design Support
+    implementation "com.google.android.material:material:$materialVersion"
+    // CardView
+    implementation "androidx.cardview:cardview:$cardviewVersion"
+    // RecyclerView
+    implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
+
+    implementation "androidx.vectordrawable:vectordrawable-animated:$vectordrawableVersion"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    // Paging
+    implementation "androidx.paging:paging-runtime:$paging_version"
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-extensions:$view_model_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$view_model_version"
+    // ConstraintLayout
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    // Circle ImageView
+    implementation "de.hdodenhof:circleimageview:$CircleImgVersion"
+
+    // Preference
+    implementation "androidx.preference:preference:$preferenceVersion"
+    implementation "com.airbnb.android:lottie:$lottieVersion"   //for animation
+
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+//    compile 'com.squareup.okhttp3:okhttps:3.4.1'
+
+    implementation 'com.squareup.picasso:picasso:2.8'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
+    implementation 'com.google.firebase:firebase-core:20.1.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.mlkit:common:18.0.0'
+    implementation 'com.google.firebase:firebase-bom:31.1.1'
+
+//   implementation 'com.google.firebase:firebase-appcheck-playintegrity'
+
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.browser:browser:1.0.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.facebook.android:facebook-login:latest.release'
+
+//    implementation 'com.facebook.android:facebook-android-sdk:5'
+    implementation 'com.facebook.android:facebook-login:5.+'
+    implementation 'com.facebook.android:facebook-login:6.5.1'
+
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+    implementation 'com.github.smarteist:autoimageslider:1.4.0-appcompat'
+
+    implementation 'com.synnapps:carouselview:0.1.5'
+
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
+//    implementation 'com.google.firebase:firebase-ml-vision:18.0.1'
+//    implementation 'com.google.firebase:firebase-ml-vision-image-label-model:17.0.2'
+
+//    implementation 'com.google.firebase:firebase-functions:20.2.2'
+//    implementation 'com.google.code.gson:gson:2.8.6'
+
+//    implementation 'com.google.firebase:firebase-ml-natural-language:22.0.0'
+//    implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.8'
+
+//    implementation 'com.google.mlkit:translate:17.0.1'
+
+//    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.0.0'
+//    implementation 'com.google.mlkit:language-id:16.0.0'
+//    implementation 'com.google.mlkit:translate:16.0.0'
+
+//    implementation 'com.google.android.gms:play-services-translate:16.1.0'
+//    implementation 'com.google.android.gms:play-services-vision:18.0.0'
+
+
+}

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "348265881761",
+    "firebase_url": "https://hateme-xorcrs.firebaseio.com",
+    "project_id": "hateme-xorcrs",
+    "storage_bucket": "hateme-xorcrs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348265881761:android:8a7ef4c6f65c6aad6a50e0",
+        "android_client_info": {
+          "package_name": "com.marwaeltayeb.souq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348265881761-lo2ajs26mn094a4du87jb40v9t43othj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marwaeltayeb.souq",
+            "certificate_hash": "f1be047af21a36c340bd9064190799cefbc31dee"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuiuRenWZJUdnVKoj8CLY8SCRpglDHv0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348265881761-agrbh4fos5a1l0n7ann5vuvssnkih5vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

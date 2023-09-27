@@ -1,0 +1,54 @@
+{
+  "status": "SUCCESS",
+  "message": "Getting menu Success",
+  "dashboard_menu_priority2": [
+    {
+      "id": "1",
+      "name": "Top Offers",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/47e5c31ef7dcce1e.png"
+    },
+    {
+      "id": "2",
+      "name": "Mobiles & Tablets",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/5f8bd5669e19e724.png"
+    },
+    {
+      "id": "3",
+      "name": "Electronics",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/361d53b8725c2d2d.png"
+    },
+    {
+      "id": "4",
+      "name": "TVs & Appliances",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/904f3c8e7101408b.png"
+    },
+    {
+      "id": "5",
+      "name": "Fashion",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/7f7355480c6adc16.png"
+    },
+    {
+      "id": "6",
+      "name": "Beauty",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/f97d6138516056bc.png"
+    },
+    {
+      "id": "7",
+      "name": "Home & Furniture",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/6728ed3cf145562c.png"
+    },
+    {
+      "id": "8",
+      "name": "Grocery",
+      "desc": "",
+      "url": "https://rukminim1.flixcart.com/fk-p-flap/128/128/image/46376ceed3448aff.png?q=100"
+    }
+  ]
+}

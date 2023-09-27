@@ -1,0 +1,227 @@
+{
+  "status": "SUCCESS",
+  "message": "Getting menu Success",
+  "Data":[
+    {
+      "dashboard_product_lists": [
+        {
+          "id": "1",
+          "Title" : "Beauty, Food,Toys & More",
+          "name": "Top Selling Stationaries",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg"
+        },
+        {
+          "id": "2",
+          "Title" : "Beauty, Food,Toys & More",
+          "name": "Cricket, Football and more",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l4d2ljk0/bat/3/4/4/1000-hitman-full-size-double-blade-poplar-cricket-bat-advance-original-imagf9zzgxxfamce.jpeg"
+        },
+        {
+          "id": "3",
+          "Title" : "Beauty, Food,Toys & More",
+          "name": "Microphones",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kjom6q80-0/microphone-accessory/n/i/0/3-5mm-clip-microphone-for-youtube-collar-mic-for-voice-recording-original-imafz7ykspmdv3vw.jpeg"
+        },
+        {
+          "id": "4",
+          "Title" : "Beauty, Food,Toys & More",
+          "name": "Dry Fruits",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg"
+        },
+        {
+          "id": "5",
+          "Title" : "Beauty, Food,Toys & More",
+          "name": "Cycle Accesories",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/light/h/9/h/imported-bicycle-rear-light-5-led-usb-rechargeable-waterproof-original-imaeq7hj3gppgcxz.jpeg"
+        },
+        {
+          "id": "6",
+          "Title" : "Beauty, Food,Toys & More",
+          "name": "Yoga mat",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg"
+        },
+        {
+          "id": "7",
+          "Title" : "Beauty, Food,Toys & More",
+          "name": "Home & Furniture",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l51d30w0/shopsy-sport-mat/p/w/s/anadi-01-yoga-mat-4-30-anadi-enterprise-15-original-imagfsxudxcm7r48.jpeg"
+        }
+      ]
+    },
+    {
+      "dashboard_product_lists": [
+        {
+          "id": "1",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Wrist Watches",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kruyw7k0/smart-band-tag/o/u/l/no-standard-cartoon-character-waterproof-led-kids-watch-for-boys-original-imag5kf2mgukhthn.jpeg"
+        },
+        {
+          "id": "2",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Blankets",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kqv8vww0/blanket/h/5/d/premium-ply-self-design-mink-blanket-wool-double-bed-blanket-original-imag4s78vrz7btdc.jpeg"
+        },
+        {
+          "id": "3",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Cups & Saucers",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/xif0q/cup-saucer/1/i/n/treat-blue06-ivbox-original-imaghj3u5w3dpjjx.jpeg"
+        },
+        {
+          "id": "4",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Women’s Dresses",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l2hwwi80/dress/6/q/q/l-310tk6042-selvia-original-imagdtyyqfy7ahwf.jpeg"
+        },
+        {
+          "id": "5",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Handbags & Clutches",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l4fxh8w0/hand-messenger-bag/a/g/v/stylish-handbag-women-girls-pink-vintage-star-hand-held-bag-original-imagfcb23pwdwk3f.jpeg"
+        },
+        {
+          "id": "6",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Artificial Jewellery",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/xif0q/jewellery-set/5/r/o/cultured-na-combo-of-5-mangalsutra-for-women-and-girls-brass-original-imagahggvcgzftez.jpeg"
+        },
+        {
+          "id": "7",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Plant Siblings",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/xif0q/plant-sapling/v/i/g/annual-no-yes-ficus-bonsai-plants-1-plastic-bag-new-modern-farm-original-imaggzkvsqhzgexk.jpeg"
+        },
+        {
+          "id": "8",
+          "Title" : "Wedding & Gifting Specials",
+          "name": "Cookware Sets",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/k77xx8w0/pot-pan/g/w/e/dms0001-dmsexim-original-imafphhbbscdzqk3.jpeg"
+        }
+      ]
+
+    },
+    {
+      "dashboard_product_lists": [
+        {
+          "id": "1",
+          "Title" : "Best of Electronics",
+          "name": "Camera Accesories",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/ks7tuvk0/gimbal/v/z/7/0-43-om4-se-dji-original-imag5u6rgsdh6k4g.jpeg"
+        },
+        {
+          "id": "2",
+          "Title" : "Best of Electronics",
+          "name": "Printers",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg"
+        },
+        {
+          "id": "3",
+          "Title" : "Best of Electronics",
+          "name": "Mirrorless Cameras",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l5jxt3k0/dslr-camera/m/n/a/-original-imagg7hsggshhwbz.jpeg?q=70"
+        },
+        {
+          "id": "4",
+          "Title" : "Best of Electronics",
+          "name": "Monitor",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg"
+        },
+        {
+          "id": "5",
+          "Title" : "Best of Electronics",
+          "name": "Printers",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l5iid8w0/printer/l/z/7/-original-imagg6cmyt9yfvta.jpeg"
+        },
+        {
+          "id": "6",
+          "Title" : "Best of Electronics",
+          "name": "Best of Hair Dryers",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/hair-dryer/c/t/g/philips-hp8100-46-original-imaemymzuxrnzfjb.jpeg?q=70"
+        }
+      ]
+    },
+    {
+      "dashboard_product_lists": [
+        {
+          "id": "1",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Door Mats",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l4x2rgw0/mat/y/m/e/small-anti-skid-doormats-for-bathroom-entrance-and-bedrooms-original-imagfppfexh9ns3r.jpeg"
+        },
+        {
+          "id": "2",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Showpeices",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/krtjgcw0/showpiece-figurine/q/8/d/sg-royalbox-original-imag5gy2rxubzkgq.jpeg"
+        },
+        {
+          "id": "3",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Sanitizer Sprayers",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kqwobrk0/spray-tip/2/t/h/brass-nozzle-water-spray-gun-water-jet-hose-nozzles-hose-pipe-original-imag4tyraqzzwwfg.jpeg"
+        },
+        {
+          "id": "4",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Mattress Protectors",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/l1jmc280/mattress-protector/w/g/e/shmp723612gy-sleepyhead-original-imagd37rhpjqngzk.jpeg"
+        },
+        {
+          "id": "5",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Emergency Lights",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kz065jk0/emergency-light/v/t/4/high-quality-60-high-bright-led-light-with-android-charging-original-imagb3v8h8zdm3q3.jpeg"
+        },
+        {
+          "id": "6",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Live Plants",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/k0e66q80/plant-sapling/c/e/7/air-purifying-pothos-money-plant-with-imported-pot-1-water-original-imafk747aczgq6ze.jpeg"
+        },
+        {
+          "id": "7",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Bath Linen Sets",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/jxxkvww0/bath-linen-set/h/y/h/p4-bathsports-gretea-heelium-original-imafg3zc8kfqzpza.jpeg"
+        },
+        {
+          "id": "8",
+          "Title" : "Home & Kitchen Essentials",
+          "name": "Paintungs",
+          "desc": "",
+          "url": "https://rukminim1.flixcart.com/image/200/200/kkmwr680/painting/y/x/r/42-sanfpnl31211-saf-original-imafzxvjzwepgfzc.jpeg"
+        }
+      ]
+    }
+  ]
+
+}
